@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Dog Images || Api practice</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <section class="container">
+    <nav>
+      <select id="breedSelection">
+        <option value="random">Random</option>
+      </select>
+      <button id="generateButton">Generate Image</button>
+    </nav>
+    <main>
+      <img src="./image/600x400.svg" id="dogImageHolder">
+    </main>
+  </section>
+  <section id="loader" class="hide">
+    <div>
+      Image Loading...
+    </div>
+    </section>
+</body>
+
+</html>

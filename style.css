@@ -1,0 +1,81 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  min-height: 30vh;
+  min-width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 30px 40px;
+}
+
+nav{
+  margin: 0 auto;
+  width: 50%;
+  display:flex;
+  justify-content: space-between;
+}
+
+#generateButton{
+  padding: 10px 18px;
+  background-color: rgb(5, 113, 201);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 900;
+  color: #dfdede;
+  text-shadow: 1px 1px 10px #000;
+}
+
+#breedSelection{
+  width: 150px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 0;
+  background-color: #fff;
+}
+#dogImageHolder{
+  width: 500px;
+  height: 300px;
+  object-fit: contain;
+  margin: 20px 0;
+}
+
+.hide{
+  display: none !important;
+}
+
+#loader{
+  /* for positioning loading at center */
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(204, 203, 203, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loader div{
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
